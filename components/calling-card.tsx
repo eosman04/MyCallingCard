@@ -34,6 +34,9 @@ export function CallingCard() {
         <Mail className="size-4" aria-hidden="true" />
         {EMAIL}
       </a>
+      <p className="mt-3 text-center text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+        <span className="inline-block scale-x-125">For inquiries &amp; correspondence</span>
+      </p>
     </article>
   )
 }
