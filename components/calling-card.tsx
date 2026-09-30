@@ -1,5 +1,6 @@
+import Image from 'next/image'
 import { GraduationCap, Mail, MapPin } from 'lucide-react'
-
+//import image from '../assets/ohmygodbruh.jpg'
 const EMAIL = 'eosman0104@gmail.com'
 
 const SKILLS = [
@@ -27,6 +28,7 @@ export function CallingCard() {
         <h1 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl">
           Essam Osman
         </h1>
+        {/* <Image src={image} alt="Essam Osman" width={160} height={160} /> */}
       </header>
 
       <div className="my-8 h-px bg-border" aria-hidden="true" />
